@@ -55,7 +55,7 @@ public class SignUpActivity extends BaseActivity {
                     startActivity(intent);
                 }
                 else{
-//                    사용자에게 모두 동의하셔야 가입이 가능합니다. 안내메세지.
+//                    사용자에게 모두 동의하셔야 가입이 가능합니다. 안내메세지. => Toast 이용
                     Toast.makeText(mContext, "모두 동의하셔야 가입이 가능합니다.", Toast.LENGTH_SHORT).show();
                 }
             }
